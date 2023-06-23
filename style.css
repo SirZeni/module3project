@@ -1,0 +1,133 @@
+/*The general CSS layouts*/
+header.menuheader{
+    height: 100px;
+    width:auto;
+    border: 2px solid black;
+    background-color:grey;
+}
+
+h1.menutitle{
+    padding-left: 10px;
+}
+
+#listbox{
+    border: 3px solid black;
+    height:auto;
+    width:auto;
+    background-color:grey;
+}
+
+p#list1, #list2, #list3{
+    text-align:center;
+    font-size:30px;
+}
+
+h2.ourmenuheader{
+    font-size:50px;
+    text-align:center;
+
+}
+
+div.boxes{
+    height:1000px;
+    width: 2500px;
+    border:2px solid black;
+    background-color:grey;
+    display:block;
+    margin:auto;
+}
+
+h3, h4, h5.titles{
+    font-size:50px;
+    text-align:center;
+}
+
+p.descriptions{
+    font-size:50px;
+}
+
+button.mybutton{
+    height:50px;
+    width:50px;
+    float:right;
+    background-color:transparent;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border:3px solid black;
+    position:relative;
+}
+
+div.icon-bar{
+    width:22px;
+    height:2px;
+    border: 1px solid black;
+    background-color:black;
+    margin-top:2px;
+    margin-bottom:2px;
+}
+
+
+div.menulist{
+    border:2px solid black;
+    width:auto;
+    height:auto;
+}
+
+div.menulist1{
+    border:2px solid black;
+    width:auto;
+    height:auto;
+}
+
+button.mybutton:hover{
+    cursor:pointer;
+}
+
+/*Media Queries*/
+
+@media (max-width:1225px) {
+    #boxesform{
+        width:900px;
+        height:2100px;
+        text-align:center;
+    }
+}
+
+@media (min-width:1226px) , (max-width:1500px){
+    #boxesform{
+        width:auto;
+        height:auto;
+    }
+}
+
+@media (min-width:1225px) {
+    .mybutton{
+        display:none;
+    }
+}
+
+@media (min-width:1225px) {
+    .icon-bar{
+        display:none;
+    }
+}
+
+@media (min-width:1225px) {
+    .menulist{
+        display:none;
+    }
+}
+
+@media (max-width:1225px) {
+    .menulist{
+        display:none;
+    }
+}
+
+@media (min-width:1225px){
+    #list1, #list2, #list3{
+        display:none;
+    }
+}
